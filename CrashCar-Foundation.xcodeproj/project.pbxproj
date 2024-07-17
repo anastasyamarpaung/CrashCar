@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1DBC8E2C2DCBE90012E182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1DBC8D2C2DCBE90012E182 /* AppDelegate.swift */; };
+		EF1DBC902C2DCBE90012E182 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1DBC8F2C2DCBE90012E182 /* SceneDelegate.swift */; };
+		EF1DBC922C2DCBE90012E182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1DBC912C2DCBE90012E182 /* ViewController.swift */; };
+		EF1DBC952C2DCBEA0012E182 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF1DBC942C2DCBEA0012E182 /* Base */; };
+		EF1DBC972C2DCBEA0012E182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1DBC962C2DCBEA0012E182 /* Assets.xcassets */; };
+		EF1DBC9A2C2DCBEA0012E182 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF1DBC992C2DCBEA0012E182 /* Base */; };
+		EF1DBCA32C2DCE360012E182 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF1DBCA22C2DCE360012E182 /* GameScene.sks */; };
+		EF1DBCA72C2DD0290012E182 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1DBCA62C2DD0290012E182 /* GameScene.swift */; };
+		EF1DBCA92C2DD0A70012E182 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1DBCA82C2DD0A70012E182 /* GameViewController.swift */; };
+		EF60D6912C2EA74500D99888 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60D6902C2EA74500D99888 /* GameOverScene.swift */; };
+		EF60D6932C2EAD6400D99888 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EF60D6922C2EAD6400D99888 /* GameOverScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF1DBC8A2C2DCBE90012E182 /* CrashCar-Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrashCar-Foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1DBC8D2C2DCBE90012E182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF1DBC8F2C2DCBE90012E182 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF1DBC912C2DCBE90012E182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF1DBC942C2DCBEA0012E182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1DBC962C2DCBEA0012E182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1DBC992C2DCBEA0012E182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1DBC9B2C2DCBEA0012E182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1DBCA12C2DCBFD0012E182 /* ARCADECLASSIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ARCADECLASSIC.TTF; sourceTree = "<group>"; };
+		EF1DBCA22C2DCE360012E182 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EF1DBCA62C2DD0290012E182 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EF1DBCA82C2DD0A70012E182 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EF60D6902C2EA74500D99888 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		EF60D6922C2EAD6400D99888 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1DBC872C2DCBE90012E182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1DBC812C2DCBE90012E182 = {
+			isa = PBXGroup;
+			children = (
+				EF1DBC8C2C2DCBE90012E182 /* CrashCar-Foundation */,
+				EF1DBC8B2C2DCBE90012E182 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1DBC8B2C2DCBE90012E182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DBC8A2C2DCBE90012E182 /* CrashCar-Foundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1DBC8C2C2DCBE90012E182 /* CrashCar-Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DBCA22C2DCE360012E182 /* GameScene.sks */,
+				EF1DBCA12C2DCBFD0012E182 /* ARCADECLASSIC.TTF */,
+				EF1DBC8D2C2DCBE90012E182 /* AppDelegate.swift */,
+				EF1DBC8F2C2DCBE90012E182 /* SceneDelegate.swift */,
+				EF1DBC912C2DCBE90012E182 /* ViewController.swift */,
+				EF1DBC932C2DCBEA0012E182 /* Main.storyboard */,
+				EF1DBC962C2DCBEA0012E182 /* Assets.xcassets */,
+				EF1DBC982C2DCBEA0012E182 /* LaunchScreen.storyboard */,
+				EF1DBC9B2C2DCBEA0012E182 /* Info.plist */,
+				EF1DBCA62C2DD0290012E182 /* GameScene.swift */,
+				EF60D6902C2EA74500D99888 /* GameOverScene.swift */,
+				EF1DBCA82C2DD0A70012E182 /* GameViewController.swift */,
+				EF60D6922C2EAD6400D99888 /* GameOverScene.sks */,
+			);
+			path = "CrashCar-Foundation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1DBC892C2DCBE90012E182 /* CrashCar-Foundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1DBC9E2C2DCBEA0012E182 /* Build configuration list for PBXNativeTarget "CrashCar-Foundation" */;
+			buildPhases = (
+				EF1DBC862C2DCBE90012E182 /* Sources */,
+				EF1DBC872C2DCBE90012E182 /* Frameworks */,
+				EF1DBC882C2DCBE90012E182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrashCar-Foundation";
+			productName = "CrashCar-Foundation";
+			productReference = EF1DBC8A2C2DCBE90012E182 /* CrashCar-Foundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1DBC822C2DCBE90012E182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EF1DBC892C2DCBE90012E182 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = EF1DBC852C2DCBE90012E182 /* Build configuration list for PBXProject "CrashCar-Foundation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1DBC812C2DCBE90012E182;
+			productRefGroup = EF1DBC8B2C2DCBE90012E182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1DBC892C2DCBE90012E182 /* CrashCar-Foundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1DBC882C2DCBE90012E182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1DBCA32C2DCE360012E182 /* GameScene.sks in Resources */,
+				EF1DBC972C2DCBEA0012E182 /* Assets.xcassets in Resources */,
+				EF1DBC9A2C2DCBEA0012E182 /* Base in Resources */,
+				EF60D6932C2EAD6400D99888 /* GameOverScene.sks in Resources */,
+				EF1DBC952C2DCBEA0012E182 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1DBC862C2DCBE90012E182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1DBCA92C2DD0A70012E182 /* GameViewController.swift in Sources */,
+				EF1DBC922C2DCBE90012E182 /* ViewController.swift in Sources */,
+				EF1DBC8E2C2DCBE90012E182 /* AppDelegate.swift in Sources */,
+				EF1DBCA72C2DD0290012E182 /* GameScene.swift in Sources */,
+				EF60D6912C2EA74500D99888 /* GameOverScene.swift in Sources */,
+				EF1DBC902C2DCBE90012E182 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF1DBC932C2DCBEA0012E182 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1DBC942C2DCBEA0012E182 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1DBC982C2DCBEA0012E182 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1DBC992C2DCBEA0012E182 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1DBC9C2C2DCBEA0012E182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF1DBC9D2C2DCBEA0012E182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1DBC9F2C2DCBEA0012E182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STK3U89HX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrashCar-Foundation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anastasya.CrashCar-Foundation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1DBCA02C2DCBEA0012E182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STK3U89HX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CrashCar-Foundation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anastasya.CrashCar-Foundation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1DBC852C2DCBE90012E182 /* Build configuration list for PBXProject "CrashCar-Foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1DBC9C2C2DCBEA0012E182 /* Debug */,
+				EF1DBC9D2C2DCBEA0012E182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1DBC9E2C2DCBEA0012E182 /* Build configuration list for PBXNativeTarget "CrashCar-Foundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1DBC9F2C2DCBEA0012E182 /* Debug */,
+				EF1DBCA02C2DCBEA0012E182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1DBC822C2DCBE90012E182 /* Project object */;
+}
